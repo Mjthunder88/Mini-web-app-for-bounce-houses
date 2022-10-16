@@ -1,0 +1,44 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.content-container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding-right: 10px;
+    border-bottom: solid black 1px;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+    width: 150px;
+}
+
+.main-pic {
+    max-width: 1100px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    padding: 5px;
+    color: black;
+}
